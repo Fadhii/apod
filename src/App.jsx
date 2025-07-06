@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import Footer from "./components/Footer"
 import Main from "./components/Main"
-import SideBar from "./components/Sidebar"
+import SideBarr from "./components/SideBarr"
 
 function App() {
   const [data, setData] = useState(null)
@@ -48,7 +48,7 @@ function App() {
         </div>
       )}
       {showModel && (
-        <SideBar data={data} handleToggleModel={handleToggleModel} />
+        <SideBarr data={data} handleToggleModel={handleToggleModel} />
       )}
       {data && (
         <Footer data={data} handleToggleModel={handleToggleModel} />

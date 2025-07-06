@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import Footer from "./components/Footer"
 import Main from "./components/Main"
-import SideBar from "../SideBar"
+import SideBar from "./components/Sidebar"
 
 function App() {
   const [data, setData] = useState(null)
